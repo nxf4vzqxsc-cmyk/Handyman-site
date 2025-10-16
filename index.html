@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dmytro Handyman — NJ & NYC</title>
+<link rel="icon" href="assets/img/favicon.png">
+<meta property="og:image" content="assets/img/og.jpg">
+<link rel="stylesheet" href="assets/styles.css"><script defer src="assets/script.js"></script>
+</head><body>
+<header class="top"><div class="container row between"><div class="brand"><span class="logo">DH</span>
+<div><h1 data-en="Dmytro Handyman" data-ru="Дмитрий · Мастер" data-zh="德米特里 · 家居维修">Dmytro Handyman</h1>
+<p class="muted" data-en="New Jersey • New York City" data-ru="Нью-Джерси • Нью-Йорк" data-zh="新泽西州 • 纽约市">New Jersey • New York City</p></div></div>
+<nav class="quick"><a href="#services" class="link" data-en="Services" data-ru="Услуги" data-zh="服务项目">Services</a>
+<a href="#areas" class="link" data-en="Areas" data-ru="Районы" data-zh="区域">Areas</a>
+<a href="#contact" class="btn primary" data-en="Get a Quote" data-ru="Заявка" data-zh="获取报价">Get a Quote</a>
+<button id="langToggle" class="btn ghost">RU</button></nav></div></header>
+<section class="hero container"><div class="text">
+<h2 data-en="Premium Handyman for Home & Business" data-ru="Премиальный мастер для дома и бизнеса" data-zh="高端家居与商用维修服务">Premium Handyman for Home & Business</h2>
+<p class="lead" data-en="Furniture, plumbing, electrical, painting, interiors/exteriors. Gym equipment. Luxury electronics." data-ru="Сборка мебели, сантехника, электрика, покраска, интерьер/экстерьер. Тренажёры. Люкс‑электрооборудование." data-zh="家具、管道、电气、涂装、室内外。健身器材。高端电子设备。">Furniture, plumbing, electrical, painting, interiors/exteriors. Gym equipment. Luxury electronics.</p>
+<div class="cta"><a class="btn primary" href="tel:+13104808282">📞 310-480-8282</a>
+<a class="btn" href="https://wa.me/13104808282">💬 WhatsApp</a><a class="btn" href="#" onclick="openTelegram(event)">✈️ Telegram</a><a class="btn" href="#" onclick="openViber(event)">📲 Viber</a></div>
+</div><div class="visual"><img src="assets/img/hero.jpg" alt="Handyman"></div></section>
+<section id="services" class="container"><h3 data-en="Services" data-ru="Услуги" data-zh="服务项目">Services</h3>
+<div class="cards">
+<article class="card"><h4 data-en="Furniture Assembly" data-ru="Сборка мебели" data-zh="家具安装">Furniture Assembly</h4><p>IKEA/custom, TV mounts, wardrobes.</p></article>
+<article class="card"><h4 data-en="Plumbing" data-ru="Сантехника" data-zh="管道维保">Plumbing</h4><p>Faucets, disposals, traps, toilets.</p></article>
+<article class="card"><h4 data-en="Electrical" data-ru="Электрика" data-zh="电气">Electrical</h4><p>Outlets, lighting, thermostats, cameras.</p></article>
+<article class="card"><h4 data-en="Painting & Repair" data-ru="Покраска и ремонт" data-zh="涂装与修复">Painting & Repair</h4><p>Interior/exterior, drywall, caulking.</p></article>
+<article class="card"><h4 data-en="Gym Equipment" data-ru="Тренажёры" data-zh="健身器材">Gym Equipment</h4><p>Assembly/disassembly, diagnostics & repair.</p></article>
+<article class="card"><h4 data-en="Luxury Electronics" data-ru="Люкс‑электрооборудование" data-zh="高端电子设备">Luxury Electronics</h4><p>Premium fixtures, AV racks, projectors.</p></article>
+</div></section>
+<section id="areas" class="container"><h3 data-en="Service Areas" data-ru="Районы работы" data-zh="服务区域">Service Areas</h3>
+<p data-en="Jersey City, Hoboken, Bayonne, Weehawken, Union City, Newark, Manhattan, Brooklyn."
+ data-ru="Джерси‑Сити, Хобокен, Бейонн, Вихокен, Юнион‑Сити, Ньюарк, Манхэттен, Бруклин."
+ data-zh="泽西城、霍博肯、贝永、威豪肯、联合市、纽瓦克、曼哈顿、布鲁克林。">Jersey City, Hoboken, Bayonne, Weehawken, Union City, Newark, Manhattan, Brooklyn.</p></section>
+<section id="contact" class="container"><h3 data-en="Contact" data-ru="Контакты" data-zh="联系">Contact</h3>
+<div class="contact-grid"><div>
+<a class="btn primary wide" href="tel:+13104808282">📞 310-480-8282</a>
+<a class="btn wide" href="https://wa.me/13104808282">💬 WhatsApp</a>
+<a class="btn wide" href="#" onclick="openTelegram(event)">✈️ Telegram</a>
+<a class="btn wide" href="#" onclick="openViber(event)">📲 Viber</a>
+<a class="btn wide" href="mailto:kuriletsdmytro1@gmail.com">✉️ kuriletsdmytro1@gmail.com</a>
+</div>
+<form class="form" action="https://formspree.io/f/your-id" method="POST">
+<div class="row two"><label><span>Name</span><input name="name" required></label><label><span>Phone</span><input name="phone" required></label></div>
+<label><span>City / ZIP</span><input name="address" required></label>
+<label><span>Service</span><select name="service"><option>Furniture Assembly</option><option>Plumbing</option><option>Electrical</option><option>Painting/Repair</option><option>Gym Equipment</option><option>Luxury Electronics</option></select></label>
+<label><span>Describe the job</span><textarea rows="5" name="message" required></textarea></label>
+<button class="btn primary" type="submit">Send Request</button>
+</form></div></section>
+<footer class="footer"><div class="container"><p>&copy; 2025 Dmytro Handyman — NJ & NYC</p></div></footer>
+<script>
+const T=document.getElementById('langToggle');const N=document.querySelectorAll('[data-en]');let L='en';
+function A(l){N.forEach(n=>{const d=n.dataset;if(l==='ru'&&d.ru)n.textContent=d.ru;else if(l==='zh'&&d.zh)n.textContent=d.zh;else n.textContent=d.en;});T.textContent=l==='en'?'RU':(l==='ru'?'中文':'EN');localStorage.setItem('lang',l);L=l;}
+T?.addEventListener('click',()=>A(L==='en'?'ru':(L==='ru'?'zh':'en')));A(localStorage.getItem('lang')||'en');
+function openTelegram(e){e.preventDefault();location.href='tg://resolve?phone=13104808282';}function openViber(e){e.preventDefault();location.href='viber://chat?number=%2B13104808282';}
+</script></body></html>
